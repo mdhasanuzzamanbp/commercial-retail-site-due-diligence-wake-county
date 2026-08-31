@@ -188,7 +188,7 @@ The weighted scores were used to establish the final priority ranking of candida
 </p>
 
 <p align="center">
-<img width="2834" height="3248" alt="03  Commercial Retail Site Selection — Final Priority Sites" src="https://github.com/user-attachments/assets/ff6bbfd5-afea-4da5-b790-dd7381b9426c" />
+<img width="auto" height="2800" alt="03  Commercial Retail Site Selection — Final Priority Sites" src="https://github.com/user-attachments/assets/ff6bbfd5-afea-4da5-b790-dd7381b9426c" />
 </p>
 
 <p align="center">
