@@ -94,11 +94,9 @@ This stage was designed to distinguish candidate parcels with more favorable sit
 
 Fig: Environmental Site Constraints (Creek, Flood, Wetland) & Accessibility Assessment (Roads) workflow
 
+<p align="justify">
 ### 2.1 Creek Screening
-Creek and stream proximity was assessed by creating a 500-ft buffer around the relevant creek/stream features.
-Candidate parcels that were located outside the 500-ft buffer were classified as Creek-Safe parcels, which gives more flexibility to select suitable parcels with strict criteria.
-Candidate parcels located within or intersecting the 500-ft buffer were classified as Creek-Risk.
-
+Creek and stream proximity was assessed by creating a 500-ft buffer around the relevant creek/stream features. Candidate parcels that were located outside the 500-ft buffer were classified as Creek-Safe parcels, which gives more flexibility to select suitable parcels with strict criteria. Candidate parcels located within or intersecting the 500-ft buffer were classified as Creek-Risk.
 
 ### 2.2 Flood Screening
 Candidate parcels were then evaluated against the mapped FEMA flood hazard area. Parcels that were outside the mapped flood hazard area were classified as Flood-Safe for this screening criterion. On the other hand, intersected parcels with the mapped hazard area were classified as Flood-Risk. No additional buffer was applied to the FEMA flood hazard area in this analysis.
@@ -117,7 +115,7 @@ The resulting road-access assessment was incorporated into the overall site suit
 
 ## 3. Weighted Multi-Criteria Evaluation
 Following the individual constraint and access assessments, the 22 candidate parcels were evaluated using a Weighted Multi-Criteria Evaluation (MCE). The purpose of the MCE was to combine the individual screening criteria into a single comparative suitability assessment. Each criterion was converted into a score representing its relative suitability. The individual scores were then combined using the predetermined criterion weights to calculate a Weighted Score for each candidate parcel.
-
+</p>
 The equation is as follows:
 Weighted Score = Σ (Criterion Score × Criterion Weight)
 
