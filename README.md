@@ -25,7 +25,7 @@ The analysis is designed to answer three key questions:
 
 # Project Workflow
 
-<img width="auto" height="600" alt="Picture1" src="https://github.com/user-attachments/assets/c72a94c9-4642-496a-a421-dffeb585e2ea" />
+<img width="auto" height="700" alt="Picture1" src="https://github.com/user-attachments/assets/9f8febc7-5259-480e-8a9a-22089da49db7" />
 
 # Tools
 
