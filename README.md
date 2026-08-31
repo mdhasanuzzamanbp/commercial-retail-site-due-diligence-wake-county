@@ -116,16 +116,12 @@ The assessment incorporated:
 The resulting road-access assessment was incorporated into the overall site suitability evaluation. The first priority was to select the parcels who has state road access. When there is no state road access in that case speed was considered the second priority.
 
 ## 3. Weighted Multi-Criteria Evaluation
-Following the individual constraint and access assessments, the 22 candidate parcels were evaluated using a Weighted Multi-Criteria Evaluation (MCE).
-The purpose of the MCE was to combine the individual screening criteria into a single comparative suitability assessment.
-
-Each criterion was converted into a score representing its relative suitability. The individual scores were then combined using the predetermined criterion weights to calculate a Weighted Score for each candidate
-parcel.
+Following the individual constraint and access assessments, the 22 candidate parcels were evaluated using a Weighted Multi-Criteria Evaluation (MCE). The purpose of the MCE was to combine the individual screening criteria into a single comparative suitability assessment. Each criterion was converted into a score representing its relative suitability. The individual scores were then combined using the predetermined criterion weights to calculate a Weighted Score for each candidate parcel.
 
 The equation is as follows:
 Weighted Score = Σ (Criterion Score × Criterion Weight)
 
-The MCE values for each criteria is given below:
+The MCE values for each criterion are given below:
 
 ## Table 2: Weighted Multi-Criteria Evaluation (MCE)
 
