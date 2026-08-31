@@ -59,10 +59,15 @@ First, parcels were screened based on zoning, parcel size, and existing land-use
 <img width="4724" height="3779" alt="01  GIS-based parcel screening workflow for commercial site selection" src="https://github.com/user-attachments/assets/b7df5918-3989-4fd9-8e65-f477590b69c1" />
 </p>
 
+<p align="center">
 Fig: GIS-based parcel initial screening workflow for commercial site selection. (Top Left) Zoning Screening (Top Right) Parcel Intersection (Bottom Left) Parcel Size Screening (Bottom Right) Land-Use Screening
+</p>
 
 ### 1.1 Zoning Screening
+
+<p align="justify">
 The first stage focused on identifying GB/HC zoning areas considered relevant to the commercial retail site-selection objective. A total of 59 GB/HC zoning polygons were identified for the initial screening from 355 zoning regions. These zoning areas were selected to identify the potentially suitable parcels.
+</p>
 
 ### 1.2 Parcel Selection
 The selected 59 GB/HC zoning polygons were spatially compared with the original parcel datasets. This process identified 226 parcels intersecting the selected GB/HC zoning areas from 437582 parcels.
@@ -95,16 +100,27 @@ This stage was designed to distinguish candidate parcels with more favorable sit
 <img width="4133" height="4074" alt="02  Site Constraints   Accessibility Assessment" src="https://github.com/user-attachments/assets/56ac32d3-8146-48f6-8aec-02b234b13f76" />
 </p>
 
+<p align="center">
 Fig: Environmental Site Constraints (Creek, Flood, Wetland) & Accessibility Assessment (Roads) workflow
+</p>
 
 ### 2.1 Creek Screening
+
+<p align="justify">
 Creek and stream proximity was assessed by creating a 500-ft buffer around the relevant creek/stream features. Candidate parcels that were located outside the 500-ft buffer were classified as Creek-Safe parcels, which gives more flexibility to select suitable parcels with strict criteria. Candidate parcels located within or intersecting the 500-ft buffer were classified as Creek-Risk.
+</p>
 
 ### 2.2 Flood Screening
+
+<p align="justify">
 Candidate parcels were then evaluated against the mapped FEMA flood hazard area. Parcels that were outside the mapped flood hazard area were classified as Flood-Safe for this screening criterion. On the other hand, intersected parcels with the mapped hazard area were classified as Flood-Risk. No additional buffer was applied to the FEMA flood hazard area in this analysis.
+</p>
 
 ### 2.3 Wetland Screening
+
+<p align="justify">
 The candidate parcels were also evaluated against mapped wetland areas. Parcels without an identified wetland intersection were classified as Wetland-Safe, while parcels intersecting mapped wetlands were classified as Wetland-Affected.
+</p>
 
 ### 2.4 Road Accessibility Screening
 
@@ -113,7 +129,7 @@ The assessment incorporated:
 - Road class (State and City road classification) 
 - Road speed 
 
-The resulting road-access assessment was incorporated into the overall site suitability evaluation. The first priority was to select the parcels who has state road access. When there is no state road access in that case speed was considered the second priority.
+The resulting road-access assessment was incorporated into the overall site suitability evaluation. The priority was to select the parcels who has state road access. When there is no state road access in that case speed was considered the second priority.
 
 ## 3. Weighted Multi-Criteria Evaluation
 
@@ -166,11 +182,18 @@ The resulting weighted scores were used to establish the relative priority of th
 | 22 | 15918 | 14.73 | Vacant | 0 | 0 | 0 | 0 | 0 | **0** | **Low** | Mark's Creek | — |
 
 ## 4. High Priority Parcels Selection
+
+<p align="justify">
 The weighted scores were used to establish the final priority ranking of candidate parcels. Higher scores indicate a more favorable combination of the evaluated site characteristics, while lower scores indicate comparatively greater constraints or less favorable accessibility. After evaluation, finally, 4 candidate parcels were selected as high priority for commercial site development.
+</p>
+
 <p align="center">
 <img width="2834" height="3248" alt="03  Commercial Retail Site Selection — Final Priority Sites" src="https://github.com/user-attachments/assets/ff6bbfd5-afea-4da5-b790-dd7381b9426c" />
 </p>
+
+<p align="center">
 Figure 4. Final high priority candidate parcels based on the weighted multi-criteria evaluation (MCE).
+</p>
 
 ## Table 4: Top 4 High Priority Parcels 
 
@@ -183,7 +206,9 @@ Figure 4. Final high priority candidate parcels based on the weighted multi-crit
 
 ## QA/QC
 
+<p align="justify">
 Before spatial analysis, datasets were reprojected to a consistent coordinate reference system EPSG: 2264, and invalid geometries were corrected using the Fix Geometries tool. Spatial indexes were created to improve spatial processing efficiency. Spatial overlay results, candidate classifications, MCE weights, final scores, rankings, and map outputs were also reviewed for clarity and consistency.
+</p>
 
 ## Recommendations
 The GIS analysis identifies parcels that appear relatively favorable based on the selected screening criteria. The highest-ranked sites should therefore be considered priority candidates for further due diligence.
@@ -200,5 +225,7 @@ The GIS analysis should therefore be considered a screening and decision-support
 
 ## Limitations
 
+<p align="justify">
 Mapped wetlands and flood-hazard areas in GIS should be treated as screening information rather than substitutes for field verification or regulatory determinations. Similarly, road-access scoring provides a comparative assessment of accessibility based on the available road characteristics but does not establish legal access, driveway approval, traffic capacity, or transportation permitting.
-For final decision, field assessment is necessary to consider other factors such as cost, utility, drainage, etc. for long-term planning.
+For the final decision, field assessment is necessary to consider other factors such as cost, utility, drainage, etc., for long-term planning.
+</p>
