@@ -1,7 +1,10 @@
 # Commercial Retail Development — Preliminary Site Due Diligence & Conceptual Site Plan Wake County, North Carolina, USA 
 
 # Executive Summary
-The project visualizes a GIS-based screening to identify potentially suitable parcels for commercial retail development. The analysis combines an initial screening (zoning, land use, parcel size), site constraints (Flood, Wetland, Creek), and an accessibility assessment (Roads), which produced final priority outputs
+
+<p align="justify">
+The project visualizes a GIS-based screening to identify potentially suitable parcels for commercial retail development. The analysis combines an initial screening (zoning, land use, parcel size), site constraints (Flood, Wetland, Creek), and an accessibility assessment (Roads), which produced final priority outputs.
+</p>
 
 The initial screening process is followed:  
 
