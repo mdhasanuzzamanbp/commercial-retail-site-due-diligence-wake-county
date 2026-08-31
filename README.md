@@ -34,10 +34,8 @@ The analysis is designed to answer three key questions:
 
 # Tools
 
-QGIS: Select by Location, Select by Expression, Statistics by Categories, Fix Geometries, Reproject, Aggregate, Intersect, Dissolve
-
-Microsoft Excel: Data Analysis
-
+QGIS: Select by Location, Select by Expression, Statistics by Categories, Fix Geometries, Reproject, Aggregate, Intersect, Dissolve<br>
+Microsoft Excel: Data Analysis<br>
 Microsoft Word: Documentation
 
 # Data source
