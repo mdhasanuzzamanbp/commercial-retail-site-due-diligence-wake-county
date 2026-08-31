@@ -33,7 +33,7 @@ QGIS: Select by location, select by expression, Statistics by categories, fix ge
 
 # Data source
 
-#### Table 1: Data Sources Table
+### Table 1: Data Sources Table
 
 | Data | Source | Purpose |
 |---|---|---|
@@ -48,21 +48,23 @@ QGIS: Select by location, select by expression, Statistics by categories, fix ge
 
 <img width="4724" height="3779" alt="01  GIS-based parcel screening workflow for commercial site selection" src="https://github.com/user-attachments/assets/b7df5918-3989-4fd9-8e65-f477590b69c1" />
 
+Fig: GIS-based parcel initial screening workflow for commercial site selection. (Top Left) Zoning Screening (Top Right) Parcel Intersection (Bottom Left) Parcel Size Screening (Bottom Right) Land-Use Screening
 
 ## 1. Initial Screening
 
 ### 1.1 Zoning Screening
 The first stage focused on identifying GB/HC zoning areas considered relevant to the commercial retail site-selection objective. A total of 59 GB/HC zoning polygons were identified for the initial screening from 355 zoning regions. These zoning areas were selected to identify the potentially suitable parcels.
 
-### 1.2 Parcel Intersection
+### 1.2 Parcel Selection
 The selected 59 GB/HC zoning polygons were spatially compared with the original parcel datasets. This process identified 226 parcels intersecting the selected GB/HC zoning areas from 437582 parcels.
 
-### 1.3 Minimum Parcel Size
+### 1.3 Parcel Size
 The 226 intersecting parcels were screened using a minimum parcel-size threshold of 8 acres. Following this screening, 41 parcels met the minimum size requirement. This step removes smaller properties that may be less suitable for the intended commercial retail development scenario.
 
-### 1.4 Existing Land-Use Screening
+### 1.4 Land-Use Screening
 The 41 parcels were subsequently screened according to their existing land-use classifications.
 Parcels were retained according whop meets the following classifications:
+
 - Agriculture 
 - Vacant 
 - Horticulture
@@ -72,6 +74,8 @@ After screening, 22 candidate parcels were finally selected for environmental co
 ## 2. Site Constraints and Accessibility Assessment
 
 <img width="4133" height="4074" alt="02  Site Constraints   Accessibility Assessment" src="https://github.com/user-attachments/assets/56ac32d3-8146-48f6-8aec-02b234b13f76" />
+
+Fig: Environmental Site Constraints (Creek, Flood, Wetland) & Accessibility Assessment (Roads) workflow
 
 With the results of initial screening, the 22 final candidate parcels were evaluated for environmental constraints and transportation accessibility.
 Four assessment categories were considered to identify the most suitable parcels as follows:
