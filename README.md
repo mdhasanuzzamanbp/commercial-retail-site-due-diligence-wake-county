@@ -46,6 +46,9 @@ QGIS: Select by location, select by expression, Statistics by categories, fix ge
 
 # Results & Discussions
 
+<img width="4724" height="3779" alt="01  GIS-based parcel screening workflow for commercial site selection" src="https://github.com/user-attachments/assets/b7df5918-3989-4fd9-8e65-f477590b69c1" />
+
+
 ## 1. Initial Screening
 
 ### 1.1 Zoning Screening
@@ -67,7 +70,9 @@ Parcels were retained according whop meets the following classifications:
 After screening, 22 candidate parcels were finally selected for environmental constraints analysis and accessibility assessment.
 
 ## 2. Site Constraints and Accessibility Assessment
-   
+
+<img width="4133" height="4074" alt="02  Site Constraints   Accessibility Assessment" src="https://github.com/user-attachments/assets/56ac32d3-8146-48f6-8aec-02b234b13f76" />
+
 With the results of initial screening, the 22 final candidate parcels were evaluated for environmental constraints and transportation accessibility.
 Four assessment categories were considered to identify the most suitable parcels as follows:
 - Creek proximity
@@ -122,15 +127,58 @@ The MCE values for each criteria is given below:
 
 The resulting weighted scores were used to establish the relative priority of the candidate parcels.
 
-## 4. Final Priority Ranking
+## Final Priority Ranking — 22 Candidate Parcels
+
+| Rank | Parcel ID | Area (acres) | Land Use | Creek | Road | Flood | Wetland | Total Score | Weighted Score | Priority | Township | Year Built |
+|---:|---:|---:|---|---:|---:|---:|---:|---:|---:|---|---|---:|
+| 1 | 126729 | 15.76 | Agriculture | 1 | 1 | 1 | 1 | 4 | **100** | **Very High** | Mark's Creek | 1951 |
+| 2 | 295568 | 11.15 | Vacant | 1 | 1 | 1 | 1 | 4 | **100** | **Very High** | Mark's Creek | — |
+| 3 | 198435 | 17.43 | Agriculture | 0 | 1 | 1 | 1 | 3 | **85** | **High** | Little River | 1940 |
+| 4 | 320113 | 10.56 | Agriculture | 1 | 0 | 1 | 1 | 3 | **75** | **High** | Panther Branch | 1920 |
+| 5 | 20269 | 11.97 | Agriculture | 0 | 0 | 1 | 1 | 2 | **60** | **Moderate** | Little River | — |
+| 6 | 124975 | 8.98 | Agriculture | 0 | 0 | 1 | 1 | 2 | **60** | **Moderate** | Panther Branch | — |
+| 7 | 278021 | 100.65 | Agriculture | 0 | 1 | 1 | 0 | 2 | **55** | **Moderate** | St. Matthew's | 1920 |
+| 8 | 82044 | 54.58 | Agriculture | 0 | 1 | 1 | 0 | 2 | **55** | **Moderate** | Panther Branch | 1935 |
+| 9 | 102139 | 38.24 | Agriculture | 0 | 1 | 1 | 0 | 2 | **55** | **Moderate** | Swift Creek | 1944 |
+| 10 | 211263 | 14.35 | Agriculture | 0 | 1 | 1 | 0 | 2 | **55** | **Moderate** | Middle Creek | 1940 |
+| 11 | 408624 | 30.07 | Agriculture | 0 | 0 | 1 | 0 | 1 | **30** | **Low** | Little River | 1930 |
+| 12 | 165121 | 24.26 | Agriculture | 0 | 0 | 1 | 0 | 1 | **30** | **Low** | Mark's Creek | — |
+| 13 | 282250 | 20.46 | Agriculture | 0 | 0 | 1 | 0 | 1 | **30** | **Low** | Middle Creek | — |
+| 14 | 210439 | 15.87 | Agriculture | 0 | 0 | 1 | 0 | 1 | **30** | **Low** | White Oak | 2014 |
+| 15 | 213841 | 12.81 | Vacant | 0 | 0 | 1 | 0 | 1 | **30** | **Low** | Wake Forest | — |
+| 16 | 10917 | 11.00 | Agriculture | 0 | 0 | 1 | 0 | 1 | **30** | **Low** | White Oak | 1997 |
+| 17 | 311260 | 10.95 | Vacant | 0 | 0 | 1 | 0 | 1 | **30** | **Low** | Mark's Creek | — |
+| 18 | 408908 | 8.53 | Horticulture | 0 | 0 | 1 | 0 | 1 | **30** | **Low** | Panther Branch | 1999 |
+| 19 | 237496 | 57.26 | Agriculture | 0 | 1 | 0 | 0 | 1 | **25** | **Low** | Mark's Creek | 1992 |
+| 20 | 296878 | 159.19 | Agriculture | 0 | 0 | 0 | 0 | 0 | **0** | **Low** | Middle Creek | 1925 |
+| 21 | 359104 | 20.22 | Agriculture | 0 | 0 | 0 | 0 | 0 | **0** | **Low** | Middle Creek | 1924 |
+| 22 | 15918 | 14.73 | Vacant | 0 | 0 | 0 | 0 | 0 | **0** | **Low** | Mark's Creek | — |
+
+## 4. High Priority Parcels Selection
 The weighted scores were used to establish the final priority ranking of candidate parcels. Higher scores indicate a more favorable combination of the evaluated site characteristics, while lower scores indicate comparatively greater constraints or less favorable accessibility. After evaluation, finally, 4 candidate parcels were selected as high priority for commercial site development.
 
+<img width="2834" height="3248" alt="03  Commercial Retail Site Selection — Final Priority Sites" src="https://github.com/user-attachments/assets/ff6bbfd5-afea-4da5-b790-dd7381b9426c" />
+
 Figure 4. Final priority ranking of candidate parcels based on the weighted multi-criteria evaluation.
+
 Final ranking table
 
-8. Recommendations
+## Final Priority Ranking
+
+| Rank | Parcel ID | Area (acres) | Land Use | Creek Score | Road Score | Flood Safe | Wetland Score | Total Score | Weighted Score | Priority |
+|---:|---:|---:|---|---:|---:|---:|---:|---:|---:|---|
+| 1 | 126729 | 15.76 | Agriculture | 1 | 1 | 1 | 1 | 4 | 100 | **Very High** |
+| 2 | 295568 | 11.15 | Vacant | 1 | 1 | 1 | 1 | 4 | 100 | **Very High** |
+| 3 | 198435 | 17.43 | Agriculture | 0 | 1 | 1 | 1 | 3 | 85 | **High** |
+| 4 | 320113 | 10.56 | Agriculture | 1 | 0 | 1 | 1 | 3 | 75 | **High** |
+
+## QA/QC
+
+Before spatial analysis, datasets were reprojected to a consistent coordinate reference system EPSG: 2264, and invalid geometries were corrected using the Fix Geometries tool. Spatial indexes were created to improve spatial processing efficiency. Spatial overlay results, candidate classifications, MCE weights, final scores, rankings, and map outputs were also reviewed for clarity and consistency.
+
+## Recommendations
 The GIS analysis identifies parcels that appear relatively favorable based on the selected screening criteria. The highest-ranked sites should therefore be considered priority candidates for further due diligence.
-For next-step project development several criteria should be verified. In case, the high priority sites have further limitation priory will be given to the following priority parcels according to the rankings.
+For next-step project development, several criteria should be verified. In case the high-priority sites have further limitations, priority will be given to the following priority parcels according to the rankings.
 
 The determining criteria are:
 - Development and infrastructure costs 
@@ -141,12 +189,9 @@ The determining criteria are:
 
 The GIS analysis should therefore be considered a screening and decision-support tool, rather than a substitute for property-level engineering, environmental, legal, or regulatory due diligence.
 
-Limitations
+## Limitations
+
 Mapped wetlands and flood-hazard areas in GIS should be treated as screening information rather than substitutes for field verification or regulatory determinations. Similarly, road-access scoring provides a comparative assessment of accessibility based on the available road characteristics but does not establish legal access, driveway approval, traffic capacity, or transportation permitting.
-For final decision, field assessment is necessary to consider other factors such as cost, utility, drainage etc. for long term planning.
-
-QA/QC
-
-Before spatial analysis, datasets were reprojected to a consistent coordinate reference system EPSG: 2264, and invalid geometries were corrected using the Fix Geometries tool. Spatial indexes were created to improve spatial processing efficiency. Spatial overlay results, candidate classifications, MCE weights, final scores, rankings, and map outputs were also reviewed for clarity and consistency.
+For final decision, field assessment is necessary to consider other factors such as cost, utility, drainage, etc. for long-term planning.
 
 
