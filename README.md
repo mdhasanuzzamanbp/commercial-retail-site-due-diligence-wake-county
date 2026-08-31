@@ -24,9 +24,9 @@ The analysis is designed to answer three key questions:
 3. Which candidate parcels have the most favorable combination of accessibility and environmental conditions?
 
 # Project Workflow
-
+<p align="center">
 <img width="auto" height="760" alt="Picture1" src="https://github.com/user-attachments/assets/9f8febc7-5259-480e-8a9a-22089da49db7" />
-
+</p>
 # Tools
 
 QGIS: Select by location, select by expression, Statistics by categories, fix geometries, reproject, aggregate, intersect, dissolve
@@ -45,9 +45,9 @@ QGIS: Select by location, select by expression, Statistics by categories, fix ge
 | **Roads** | [Wake County Streets — Data.gov](https://catalog.data.gov/dataset/streets-in-wake-county-nc) | Evaluate road class, speed, and accessibility |
 
 # Results & Discussions
-
+<p align="center">
 <img width="4724" height="3779" alt="01  GIS-based parcel screening workflow for commercial site selection" src="https://github.com/user-attachments/assets/b7df5918-3989-4fd9-8e65-f477590b69c1" />
-
+</p>
 Fig: GIS-based parcel initial screening workflow for commercial site selection. (Top Left) Zoning Screening (Top Right) Parcel Intersection (Bottom Left) Parcel Size Screening (Bottom Right) Land-Use Screening
 
 ## 1. Initial Screening
@@ -72,9 +72,9 @@ Parcels were retained according whop meets the following classifications:
 After screening, 22 candidate parcels were finally selected for environmental constraints analysis and accessibility assessment.
 
 ## 2. Site Constraints and Accessibility Assessment
-
+<p align="center">
 <img width="4133" height="4074" alt="02  Site Constraints   Accessibility Assessment" src="https://github.com/user-attachments/assets/56ac32d3-8146-48f6-8aec-02b234b13f76" />
-
+</p>
 Fig: Environmental Site Constraints (Creek, Flood, Wetland) & Accessibility Assessment (Roads) workflow
 
 With the results of initial screening, the 22 final candidate parcels were evaluated for environmental constraints and transportation accessibility.
@@ -160,10 +160,9 @@ The resulting weighted scores were used to establish the relative priority of th
 
 ## 4. High Priority Parcels Selection
 The weighted scores were used to establish the final priority ranking of candidate parcels. Higher scores indicate a more favorable combination of the evaluated site characteristics, while lower scores indicate comparatively greater constraints or less favorable accessibility. After evaluation, finally, 4 candidate parcels were selected as high priority for commercial site development.
-
+<p align="center">
 <img width="2834" height="3248" alt="03  Commercial Retail Site Selection — Final Priority Sites" src="https://github.com/user-attachments/assets/ff6bbfd5-afea-4da5-b790-dd7381b9426c" />
-
-
+</p>
 Figure 4. Final high priority candidate parcels based on the weighted multi-criteria evaluation (MCE).
 
 ## Table 4: Top 4 High Priority Parcels 
