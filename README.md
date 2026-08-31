@@ -33,7 +33,7 @@ QGIS: Select by location, select by expression, Statistics by categories, fix ge
 
 # Data source
 
-## Data Sources
+## Table 1: Data Sources Table
 
 | Data | Source | Purpose |
 |---|---|---|
@@ -115,7 +115,7 @@ Weighted Score = Σ (Criterion Score × Criterion Weight)
 
 The MCE values for each criteria is given below:
 
-## Weighted Multi-Criteria Evaluation (MCE)
+## Table 2: Weighted Multi-Criteria Evaluation (MCE)
 
 | Criterion | Assessment Factor | Scoring | Weight |
 |---|---|---|---:|
@@ -127,7 +127,7 @@ The MCE values for each criteria is given below:
 
 The resulting weighted scores were used to establish the relative priority of the candidate parcels.
 
-## Final Priority Ranking — 22 Candidate Parcels
+## Table 3: Final Priority Ranking — 22 Candidate Parcels
 
 | Rank | Parcel ID | Area (acres) | Land Use | Creek | Road | Flood | Wetland | Total Score | Weighted Score | Priority | Township | Year Built |
 |---:|---:|---:|---|---:|---:|---:|---:|---:|---:|---|---|---:|
@@ -159,11 +159,10 @@ The weighted scores were used to establish the final priority ranking of candida
 
 <img width="2834" height="3248" alt="03  Commercial Retail Site Selection — Final Priority Sites" src="https://github.com/user-attachments/assets/ff6bbfd5-afea-4da5-b790-dd7381b9426c" />
 
-Figure 4. Final priority ranking of candidate parcels based on the weighted multi-criteria evaluation.
 
-Final ranking table
+Figure 4. Final high priority candidate parcels based on the weighted multi-criteria evaluation (MCE).
 
-## Final Priority Ranking
+## Table 4: Top 4 High Priority Parcels 
 
 | Rank | Parcel ID | Area (acres) | Land Use | Creek Score | Road Score | Flood Safe | Wetland Score | Total Score | Weighted Score | Priority |
 |---:|---:|---:|---|---:|---:|---:|---:|---:|---:|---|
