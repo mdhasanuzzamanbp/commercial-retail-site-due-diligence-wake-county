@@ -156,30 +156,32 @@ The resulting weighted scores were used to establish the relative priority of th
 
 ## Table 3: Final Priority Ranking — 22 Candidate Parcels
 
-| Rank | Parcel ID | Area (acres) | Land Use | Creek | Road | Flood | Wetland | Total Score | Weighted Score | Priority | Township | Year Built |
-|---:|---:|---:|---|---:|---:|---:|---:|---:|---:|---|---|---:|
-| 1 | 126729 | 15.76 | Agriculture | 1 | 1 | 1 | 1 | 4 | **100** | **Very High** | Mark's Creek | 1951 |
-| 2 | 295568 | 11.15 | Vacant | 1 | 1 | 1 | 1 | 4 | **100** | **Very High** | Mark's Creek | — |
-| 3 | 198435 | 17.43 | Agriculture | 0 | 1 | 1 | 1 | 3 | **85** | **High** | Little River | 1940 |
-| 4 | 320113 | 10.56 | Agriculture | 1 | 0 | 1 | 1 | 3 | **75** | **High** | Panther Branch | 1920 |
-| 5 | 20269 | 11.97 | Agriculture | 0 | 0 | 1 | 1 | 2 | **60** | **Moderate** | Little River | — |
-| 6 | 124975 | 8.98 | Agriculture | 0 | 0 | 1 | 1 | 2 | **60** | **Moderate** | Panther Branch | — |
-| 7 | 278021 | 100.65 | Agriculture | 0 | 1 | 1 | 0 | 2 | **55** | **Moderate** | St. Matthew's | 1920 |
-| 8 | 82044 | 54.58 | Agriculture | 0 | 1 | 1 | 0 | 2 | **55** | **Moderate** | Panther Branch | 1935 |
-| 9 | 102139 | 38.24 | Agriculture | 0 | 1 | 1 | 0 | 2 | **55** | **Moderate** | Swift Creek | 1944 |
-| 10 | 211263 | 14.35 | Agriculture | 0 | 1 | 1 | 0 | 2 | **55** | **Moderate** | Middle Creek | 1940 |
-| 11 | 408624 | 30.07 | Agriculture | 0 | 0 | 1 | 0 | 1 | **30** | **Low** | Little River | 1930 |
-| 12 | 165121 | 24.26 | Agriculture | 0 | 0 | 1 | 0 | 1 | **30** | **Low** | Mark's Creek | — |
-| 13 | 282250 | 20.46 | Agriculture | 0 | 0 | 1 | 0 | 1 | **30** | **Low** | Middle Creek | — |
-| 14 | 210439 | 15.87 | Agriculture | 0 | 0 | 1 | 0 | 1 | **30** | **Low** | White Oak | 2014 |
-| 15 | 213841 | 12.81 | Vacant | 0 | 0 | 1 | 0 | 1 | **30** | **Low** | Wake Forest | — |
-| 16 | 10917 | 11.00 | Agriculture | 0 | 0 | 1 | 0 | 1 | **30** | **Low** | White Oak | 1997 |
-| 17 | 311260 | 10.95 | Vacant | 0 | 0 | 1 | 0 | 1 | **30** | **Low** | Mark's Creek | — |
-| 18 | 408908 | 8.53 | Horticulture | 0 | 0 | 1 | 0 | 1 | **30** | **Low** | Panther Branch | 1999 |
-| 19 | 237496 | 57.26 | Agriculture | 0 | 1 | 0 | 0 | 1 | **25** | **Low** | Mark's Creek | 1992 |
-| 20 | 296878 | 159.19 | Agriculture | 0 | 0 | 0 | 0 | 0 | **0** | **Low** | Middle Creek | 1925 |
-| 21 | 359104 | 20.22 | Agriculture | 0 | 0 | 0 | 0 | 0 | **0** | **Low** | Middle Creek | 1924 |
-| 22 | 15918 | 14.73 | Vacant | 0 | 0 | 0 | 0 | 0 | **0** | **Low** | Mark's Creek | — |
+## Final Priority Ranking — 22 Candidate Parcels
+
+| Rank | OBJECTID | Area (acres) | Creek Score | Road Score | Flood Safe | Wetland Score | Total Score | Weighted Score | Priority | Land Class | Township | Year Built |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 126729 | 15.76 | 1 | 1 | 1 | 1 | 4 | **100** | **Very High** | Agriculture | Mark's Creek | 1951 |
+| 2 | 295568 | 11.15 | 1 | 1 | 1 | 1 | 4 | **100** | **Very High** | Vacant | Mark's Creek | — |
+| 3 | 198435 | 17.43 | 0 | 1 | 1 | 1 | 3 | **85** | **High** | Agriculture | Little River | 1940 |
+| 4 | 320113 | 10.56 | 1 | 0 | 1 | 1 | 3 | **75** | **High** | Agriculture | Panther Branch | 1920 |
+| 5 | 20269 | 11.97 | 0 | 0 | 1 | 1 | 2 | **60** | **Moderate** | Agriculture | Little River | — |
+| 6 | 124975 | 8.98 | 0 | 0 | 1 | 1 | 2 | **60** | **Moderate** | Agriculture | Panther Branch | — |
+| 7 | 278021 | 100.65 | 0 | 1 | 1 | 0 | 2 | **55** | **Moderate** | Agriculture | St. Matthew's | 1920 |
+| 8 | 82044 | 54.58 | 0 | 1 | 1 | 0 | 2 | **55** | **Moderate** | Agriculture | Panther Branch | 1935 |
+| 9 | 102139 | 38.24 | 0 | 1 | 1 | 0 | 2 | **55** | **Moderate** | Agriculture | Swift Creek | 1944 |
+| 10 | 211263 | 14.35 | 0 | 1 | 1 | 0 | 2 | **55** | **Moderate** | Agriculture | Middle Creek | 1940 |
+| 11 | 408624 | 30.07 | 0 | 0 | 1 | 0 | 1 | **30** | **Low** | Agriculture | Little River | 1930 |
+| 12 | 165121 | 24.26 | 0 | 0 | 1 | 0 | 1 | **30** | **Low** | Agriculture | Mark's Creek | — |
+| 13 | 282250 | 20.46 | 0 | 0 | 1 | 0 | 1 | **30** | **Low** | Agriculture | Middle Creek | — |
+| 14 | 210439 | 15.87 | 0 | 0 | 1 | 0 | 1 | **30** | **Low** | Agriculture | White Oak | 2014 |
+| 15 | 213841 | 12.81 | 0 | 0 | 1 | 0 | 1 | **30** | **Low** | Vacant | Wake Forest | — |
+| 16 | 10917 | 11.00 | 0 | 0 | 1 | 0 | 1 | **30** | **Low** | Agriculture | White Oak | 1997 |
+| 17 | 311260 | 10.95 | 0 | 0 | 1 | 0 | 1 | **30** | **Low** | Vacant | Mark's Creek | — |
+| 18 | 408908 | 8.53 | 0 | 0 | 1 | 0 | 1 | **30** | **Low** | Horticulture | Panther Branch | 1999 |
+| 19 | 237496 | 57.26 | 0 | 1 | 0 | 0 | 1 | **25** | **Low** | Agriculture | Mark's Creek | 1992 |
+| 20 | 296878 | 159.19 | 0 | 0 | 0 | 0 | 0 | **0** | **Low** | Agriculture | Middle Creek | 1925 |
+| 21 | 359104 | 20.22 | 0 | 0 | 0 | 0 | 0 | **0** | **Low** | Agriculture | Middle Creek | 1924 |
+| 22 | 15918 | 14.73 | 0 | 0 | 0 | 0 | 0 | **0** | **Low** | Vacant | Mark's Creek | — |
 
 ## 4. High Priority Parcels Selection
 
