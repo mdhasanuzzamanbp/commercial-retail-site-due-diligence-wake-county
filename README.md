@@ -85,6 +85,15 @@ Parcels were retained according to the following classifications:
   
 After screening, 22 candidate parcels were finally selected for environmental constraints analysis and accessibility assessment.
 
+### Table 2: Initial Screening Results
+
+| Screening Stage | Number of Features |
+|:---|---:|
+| GB/HC Zoning Polygons | 59 |
+| Intersecting Parcels | 226 |
+| Parcels ≥ 8 Acres | 41 |
+| Agriculture / Vacant / Horticulture | 22 |
+
 ## 2. Site Constraints and Accessibility Assessment
 
 With the results of initial screening, the 22 final candidate parcels were evaluated for environmental constraints and transportation accessibility.
@@ -142,7 +151,7 @@ Weighted Score = Σ (Criterion Score × Criterion Weight)
 
 The MCE values for each criterion are given below:
 
-## Table 2: Weighted Multi-Criteria Evaluation (MCE)
+## Table 3: Weighted Multi-Criteria Evaluation (MCE)
 
 | Criterion | Assessment Factor | Scoring | Weight |
 |---|---|---|---:|
@@ -154,7 +163,7 @@ The MCE values for each criterion are given below:
 
 The resulting weighted scores were used to establish the relative priority of the candidate parcels.
 
-## Table 3: Final Priority Ranking — 22 Candidate Parcels
+## Table 4: Final Priority Ranking — 22 Candidate Parcels
 
 ## Final Priority Ranking — 22 Candidate Parcels
 
@@ -197,7 +206,7 @@ The weighted scores were used to establish the final priority ranking of candida
 Figure 4. Final high priority candidate parcels based on the weighted multi-criteria evaluation (MCE).
 </p>
 
-## Table 4: Top 4 High Priority Parcels 
+## Table 5: Top 4 High Priority Parcels 
 
 | Rank | Parcel ID | Area (acres) | Land Use | Creek Score | Road Score | Flood Safe | Wetland Score | Total Score | Weighted Score | Priority |
 |---:|---:|---:|---|---:|---:|---:|---:|---:|---:|---|
