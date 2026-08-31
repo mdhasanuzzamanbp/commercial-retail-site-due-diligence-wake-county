@@ -24,9 +24,11 @@ The analysis is designed to answer three key questions:
 3. Which candidate parcels have the most favorable combination of accessibility and environmental conditions?
 
 # Project Workflow
+
 <p align="center">
 <img width="auto" height="760" alt="Picture1" src="https://github.com/user-attachments/assets/9f8febc7-5259-480e-8a9a-22089da49db7" />
 </p>
+
 # Tools
 
 QGIS: Select by location, select by expression, Statistics by categories, fix geometries, reproject, aggregate, intersect, dissolve
@@ -45,9 +47,11 @@ QGIS: Select by location, select by expression, Statistics by categories, fix ge
 | **Roads** | [Wake County Streets — Data.gov](https://catalog.data.gov/dataset/streets-in-wake-county-nc) | Evaluate road class, speed, and accessibility |
 
 # Results & Discussions
+
 <p align="center">
 <img width="4724" height="3779" alt="01  GIS-based parcel screening workflow for commercial site selection" src="https://github.com/user-attachments/assets/b7df5918-3989-4fd9-8e65-f477590b69c1" />
 </p>
+
 Fig: GIS-based parcel initial screening workflow for commercial site selection. (Top Left) Zoning Screening (Top Right) Parcel Intersection (Bottom Left) Parcel Size Screening (Bottom Right) Land-Use Screening
 
 ## 1. Initial Screening
@@ -72,9 +76,11 @@ Parcels were retained according whop meets the following classifications:
 After screening, 22 candidate parcels were finally selected for environmental constraints analysis and accessibility assessment.
 
 ## 2. Site Constraints and Accessibility Assessment
+
 <p align="center">
 <img width="4133" height="4074" alt="02  Site Constraints   Accessibility Assessment" src="https://github.com/user-attachments/assets/56ac32d3-8146-48f6-8aec-02b234b13f76" />
 </p>
+
 Fig: Environmental Site Constraints (Creek, Flood, Wetland) & Accessibility Assessment (Roads) workflow
 
 With the results of initial screening, the 22 final candidate parcels were evaluated for environmental constraints and transportation accessibility.
