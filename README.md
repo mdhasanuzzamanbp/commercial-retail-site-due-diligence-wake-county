@@ -6,7 +6,7 @@ The project visualizes a GIS-based screening to identify potentially suitable pa
 The initial screening process is followed:  
 
 - 59 GB/HC (commercial zoning areas) zoning regions from 355 regions
-- 226 GB/HC zoning intersected parcels were identified from 437582 Parcels
+- 226 GB/HC zoning-intersected parcels were identified from 437582 Parcels
 - 41 parcels were identified that were equal to or greater than 8 acres
 - 22 parcels were selected for constraint and accessibility assessment as per classification  (Agriculture, Vacant, or Horticulture)
 - Secondary screening was performed with flood exposure, wetland constraints, creek proximity, and road access
@@ -49,14 +49,14 @@ Microsoft Word: Documentation
 | **Roads** | [Wake County Streets — Data.gov](https://catalog.data.gov/dataset/streets-in-wake-county-nc) | Evaluate road class, speed, and accessibility |
 
 # Results & Discussions
+## 1. Initial Screening
+First, parcels were screened based on zoning, parcel size, and existing land-use characteristics to select final parcels for the next analysis. This step consists of 4 screening stages:  Zoning Screening, Parcel Selection, Parcel Size and Land-Use Screening.
 
 <p align="center">
 <img width="4724" height="3779" alt="01  GIS-based parcel screening workflow for commercial site selection" src="https://github.com/user-attachments/assets/b7df5918-3989-4fd9-8e65-f477590b69c1" />
 </p>
 
 Fig: GIS-based parcel initial screening workflow for commercial site selection. (Top Left) Zoning Screening (Top Right) Parcel Intersection (Bottom Left) Parcel Size Screening (Bottom Right) Land-Use Screening
-
-## 1. Initial Screening
 
 ### 1.1 Zoning Screening
 The first stage focused on identifying GB/HC zoning areas considered relevant to the commercial retail site-selection objective. A total of 59 GB/HC zoning polygons were identified for the initial screening from 355 zoning regions. These zoning areas were selected to identify the potentially suitable parcels.
@@ -69,7 +69,7 @@ The 226 intersecting parcels were screened using a minimum parcel-size threshold
 
 ### 1.4 Land-Use Screening
 The 41 parcels were subsequently screened according to their existing land-use classifications.
-Parcels were retained according whop meets the following classifications:
+Parcels were retained according to the following classifications:
 
 - Agriculture 
 - Vacant 
@@ -79,20 +79,20 @@ After screening, 22 candidate parcels were finally selected for environmental co
 
 ## 2. Site Constraints and Accessibility Assessment
 
-<p align="center">
-<img width="4133" height="4074" alt="02  Site Constraints   Accessibility Assessment" src="https://github.com/user-attachments/assets/56ac32d3-8146-48f6-8aec-02b234b13f76" />
-</p>
-
-Fig: Environmental Site Constraints (Creek, Flood, Wetland) & Accessibility Assessment (Roads) workflow
-
 With the results of initial screening, the 22 final candidate parcels were evaluated for environmental constraints and transportation accessibility.
 Four assessment categories were considered to identify the most suitable parcels as follows:
 - Creek proximity
 - Flood hazard 
 - Wetland conditions 
 - Road access
-  
+
 This stage was designed to distinguish candidate parcels with more favorable site conditions from those affected by environmental or accessibility constraints.
+
+<p align="center">
+<img width="4133" height="4074" alt="02  Site Constraints   Accessibility Assessment" src="https://github.com/user-attachments/assets/56ac32d3-8146-48f6-8aec-02b234b13f76" />
+</p>
+
+Fig: Environmental Site Constraints (Creek, Flood, Wetland) & Accessibility Assessment (Roads) workflow
 
 ### 2.1 Creek Screening
 Creek and stream proximity was assessed by creating a 500-ft buffer around the relevant creek/stream features.
