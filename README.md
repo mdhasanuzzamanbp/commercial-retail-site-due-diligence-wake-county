@@ -94,7 +94,6 @@ This stage was designed to distinguish candidate parcels with more favorable sit
 
 Fig: Environmental Site Constraints (Creek, Flood, Wetland) & Accessibility Assessment (Roads) workflow
 
-<p align="justify">
 ### 2.1 Creek Screening
 Creek and stream proximity was assessed by creating a 500-ft buffer around the relevant creek/stream features. Candidate parcels that were located outside the 500-ft buffer were classified as Creek-Safe parcels, which gives more flexibility to select suitable parcels with strict criteria. Candidate parcels located within or intersecting the 500-ft buffer were classified as Creek-Risk.
 
@@ -114,8 +113,11 @@ The assessment incorporated:
 The resulting road-access assessment was incorporated into the overall site suitability evaluation. The first priority was to select the parcels who has state road access. When there is no state road access in that case speed was considered the second priority.
 
 ## 3. Weighted Multi-Criteria Evaluation
+
+<p align="justify">
 Following the individual constraint and access assessments, the 22 candidate parcels were evaluated using a Weighted Multi-Criteria Evaluation (MCE). The purpose of the MCE was to combine the individual screening criteria into a single comparative suitability assessment. Each criterion was converted into a score representing its relative suitability. The individual scores were then combined using the predetermined criterion weights to calculate a Weighted Score for each candidate parcel.
 </p>
+
 The equation is as follows:
 Weighted Score = Σ (Criterion Score × Criterion Weight)
 
@@ -197,5 +199,3 @@ The GIS analysis should therefore be considered a screening and decision-support
 
 Mapped wetlands and flood-hazard areas in GIS should be treated as screening information rather than substitutes for field verification or regulatory determinations. Similarly, road-access scoring provides a comparative assessment of accessibility based on the available road characteristics but does not establish legal access, driveway approval, traffic capacity, or transportation permitting.
 For final decision, field assessment is necessary to consider other factors such as cost, utility, drainage, etc. for long-term planning.
-
-
